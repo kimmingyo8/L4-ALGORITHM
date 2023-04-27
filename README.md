@@ -13,3 +13,7 @@
 | `정수연` | https://github.com/susuje |
 | `정신애` | https://github.com/JAYCODE-git |
 | `홍승표` | https://github.com/Jaharim |
+
+<br>
+
+💙엘사조 사랑해💙
