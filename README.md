@@ -23,7 +23,7 @@
 ### 💙 Commit Message Guide
 본 가이드는 [Udacity Git Commit Message Style Guide](https://udacity.github.io/git-styleguide/)를 참고하여 작성하였습니다.
 
-| Emoji | Description | Message | 
+| Description | Emoji | Message | 
 |  :---:  |  :---:  | --- |
 | 알고리즘 문제 풀이	| 📝 | 프로그래머스 lv `n` |
 | 버그 수정	| 🐛 | Fix : `Message` |
