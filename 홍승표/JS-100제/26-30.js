@@ -97,7 +97,24 @@
 //     }
 //     if (checkStr === findStr) {
 //       console.log(i);
-//       checkStr = '';
 //     }
+//   }
+//   checkStr = '';
+// }
+
+// 태희님 코드
+// str = 'appineapple is yummy'
+// findStr = apple
+// for (let i = 0; i < str.length; i++) {
+//   if (str[i] === findStr[0]) {
+//     checkStr += str[i];
+//     for (let j = 1; j < findStr.length; j++) {
+//       checkStr += str[i + j];
+//     }
+//     if (checkStr === findStr) {
+//       console.log(i); // 6
+//     }
+//     checkStr = '';
+//     console.log(checkStr); // ''
 //   }
 // }
