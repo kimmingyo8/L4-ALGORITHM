@@ -36,22 +36,22 @@
 // 1위 ~ 3위 학생은 여러명일 수 있고 1~3위 학생 중 중복되는 학생까지 포함하여 사탕을 사기로 한다.
 // **학생들의 점수를 공백으로 구분하여 입력을 받고 사탕을 받을 학생의 수를 출력하세요.**
 
-let inputArr = prompt('점수를 일력해주세요 (구분: 공백)')
-  .split(' ')
-  .map((el) => parseInt(el));
-let inputSet = new Set(inputArr);
-let tempArr = [];
-let cutRank = 3;
-let candyCount = 0;
-for (let a of inputSet) {
-  tempArr.push(parseInt(a));
-}
-tempArr = tempArr.sort((a, b) => b - a);
-let cutScore = tempArr[cutRank - 1];
-for (let b of inputArr) {
-  if (b >= cutScore) candyCount++;
-}
-console.log(candyCount);
+// let inputArr = prompt('점수를 일력해주세요 (구분: 공백)')
+//   .split(' ')
+//   .map((el) => parseInt(el));
+// let inputSet = new Set(inputArr);
+// let tempArr = [];
+// let cutRank = 3;
+// let candyCount = 0;
+// for (let a of inputSet) {
+//   tempArr.push(parseInt(a));
+// }
+// tempArr = tempArr.sort((a, b) => b - a);
+// let cutScore = tempArr[cutRank - 1];
+// for (let b of inputArr) {
+//   if (b >= cutScore) candyCount++;
+// }
+// console.log(candyCount);
 
 //입출력
 
