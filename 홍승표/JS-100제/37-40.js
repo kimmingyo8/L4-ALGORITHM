@@ -4,11 +4,9 @@
 // 새 학기를 맞아 호준이네 반은 반장 선거를 하기로 했습니다.  그런데 표를 하나씩 개표하는 과정이 너무 번거롭게 느껴진 당신은
 //* 학생들이 뽑은 후보들을 입력받으면 뽑힌 학생의 이름과 받은 표 수를 출력하는 프로그램을 작성하기로 하였습니다.
 
-// let inputArr = prompt('학생들이 뽑은 후보들을 입력해주세요 (구분: 공백)').split(
-//   ' '
-// );
+// let inputArr = prompt('학생들이 뽑은 후보들을 입력해주세요 (구분: 공백)').split(' ');
 // let count = new Map();
-// let min = Number.MIN_SAFE_INTEGER;
+// let max = Number.MIN_SAFE_INTEGER;
 // let answer;
 // for (let a of inputArr) {
 //   count.set(a, 0);
@@ -17,8 +15,8 @@
 //   count.set(item, count.get(item) + 1);
 // });
 // for (let [key, value] of count) {
-//   if (value > min) {
-//     min = value;
+//   if (value > max) {
+//     max = value;
 //     answer = key;
 //   }
 // }
@@ -38,13 +36,15 @@
 // 1위 ~ 3위 학생은 여러명일 수 있고 1~3위 학생 중 중복되는 학생까지 포함하여 사탕을 사기로 한다.
 // **학생들의 점수를 공백으로 구분하여 입력을 받고 사탕을 받을 학생의 수를 출력하세요.**
 
-// let inputArr = prompt('점수를 일력해주세요 (구분: 공백)').split(' ');
+// let inputArr = prompt('점수를 일력해주세요 (구분: 공백)')
+//   .split(' ')
+//   .map((el) => parseInt(el));
 // let inputSet = new Set(inputArr);
 // let tempArr = [];
 // let cutRank = 3;
 // let candyCount = 0;
 // for (let a of inputSet) {
-//   tempArr.push(a);
+//   tempArr.push(parseInt(a));
 // }
 // tempArr = tempArr.sort((a, b) => b - a);
 // let cutScore = tempArr[cutRank - 1];
@@ -67,7 +67,7 @@
 // **문장이 입력되면 모든 q를 e로 바꾸는 프로그램을 작성해 주세요.**
 
 // let input = prompt('문장을 입력하세요');
-// let answer = input.replaceAll(/q/g, 'e');
+// let answer = input.replaceAll('q', 'e');
 // console.log(answer);
 
 // 입출력
