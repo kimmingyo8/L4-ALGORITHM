@@ -42,18 +42,18 @@
 //todo # 대소문자 바꿔서 출력하기
 //*문자열이 주어지면 대문자와 소문자를 바꿔서 출력하는 프로그램을 작성하세요.
 
-let input = prompt('문자열을 입력해주세요');
-let arr = [];
+// let input = prompt('문자열을 입력해주세요');
+// let arr = [];
 
-for (let a of input) {
-  if (a.charCodeAt() > 64 && a.charCodeAt() < 91) {
-    arr.push(a.toLowerCase());
-  } else if (a.charCodeAt() > 96 && a.charCodeAt() < 123) {
-    arr.push(a.toUpperCase());
-  }
-}
+// for (let a of input) {
+//   if (a.charCodeAt() > 64 && a.charCodeAt() < 91) {
+//     arr.push(a.toLowerCase());
+//   } else if (a.charCodeAt() > 96 && a.charCodeAt() < 123) {
+//     arr.push(a.toUpperCase());
+//   }
+// }
 
-console.log(arr.join(''));
+// console.log(arr.join(''));
 
 // 입출력;
 // 입력: AAABBBcccddd;
